@@ -38,7 +38,7 @@ button{
 }
 
 button:hover{
-    
+    border: solid .05pc #19346a;
 }
 
 button:hover{
