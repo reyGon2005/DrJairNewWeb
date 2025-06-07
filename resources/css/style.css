@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F2F0D5;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 12px;
+}   
+
+html, body {
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #F2F0D5;
+    border-bottom: 1px solid #F2F0D5;
+}
+
+a:hover{
+    background-color: #F2F0D5;
+    color: #19346a;
+}
+
+button{
+    border: 0;
+    background-color: #19346a;
+    color: #F2F0D5;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10pc;
+}
+
+button:hover{
+    
+}
+
+button:hover{
+    background-color: #F2F0D5;
+    color: #19346a;
+}
+
+nav{
+    background-color: #19346a;
+}
+
+.logo{
+    width: auto;
+    max-height: 130px;
+}
+
+li{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+nav li{
+    margin: 10px;
+    font-size: 1.4rem;
+    list-style: none;
+    display: inline-block;
+    color: #F2F0D5;
+}
+
+.banner{
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/Colágeno.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.header-link{
+    padding: .3rem;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.widget{
+    height: 300px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: .5rem;
+    margin: 1rem;
+    border-radius: 15px;
+}
+
+.contenido-widget{
+    background-color: #F2F0D5;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.botox{
+    background-image: url("../img/image-face.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bioestimulacion{
+    background-image: url("../img/bio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.szero{
+    background-image: url("../img/ems.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pdrn{
+    background-image: url("../img/pdrn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sobre-mi{
+    background-color: #7E8792;
+    padding: 1rem;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.me-foto{
+    height: 400px;
+    width: auto;
+}
+
+.about-me{
+    text-align: justify;
+    color: #F2F0D5;
+    width: 40%;
+    font-size: 1.3rem;
+}
+
+footer{
+    background-color: #19346a; 
+    padding: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    color: #F2F0D5;
+}
+
+@media only screen and (max-width: 480px) {
+    .about-me{
+        width: 90%;
+    }
+    .banner{
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    .widget{
+        width: 310px;
+    }
+    .about-me{
+        font-size: 1.27rem;
+    }
+    .banner{
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .widget{
+        width: 500px;
+    }
+    .about-me{
+        font-size: 1.5rem;
+    }
+    .banner{
+        height: 600px;
+    }
+}
