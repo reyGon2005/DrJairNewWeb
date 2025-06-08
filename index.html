@@ -12,11 +12,11 @@
 <body>
     <header>
         <nav>
-            <img src="resources/img/logoBlanco.png" alt="logotipo" class="logo">
+            <a href="Index.html" id="logo"><img src="resources/img/logoBlanco.png" alt="logotipo" class="logo"></a>
             <ul>
-                <li class="header-link"><a href="">Procedimientos</a></li>
-                <li class="header-link"><a href="">Sobre mi</a></li>
-                <li class="header-link"><a href="">Ubicacion</a></li>
+                <li class="header-link"><a href="Procedimientos.html">Procedimientos</a></li>
+                <li class="header-link"><a href="#myself">Sobre mi</a></li>
+                <li class="header-link"><a href="#ubicacion">Ubicacion</a></li>
             </ul>
         </nav>
     </header>
@@ -65,9 +65,11 @@
                 </div>
             </section>
         </div>
-        <button>Mas info.</button>
+        <a href="Procedimientos.html">
+            <button>Mas info.</button>
+        </a>
     </main>
-    <section class="sobre-mi">
+    <section class="sobre-mi" id="myself">
         <div class="img-me">
             <img src="resources/img/me.jpg" alt="imagen demostratiba sobre mi" class="me-foto">
         </div>
@@ -84,9 +86,9 @@
             </p>
         </div>
     </section>
-    <footer>
-        <p><a href="">Instagram</a></p>
-        <p><a href="">Facebook</a></p>
+    <footer id="ubicacion">
+        <p><a href="https://www.instagram.com/doc.jair?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></p>
+        <p><a href="https://www.facebook.com/profile.php?id=61566900117546">Facebook</a></p>
         <p><a href="https://wa.me/3921000566?text=Hola%20estoy%20interesado%20en%20algún%20tratamiento" class="hover-link">WhatsApp</a></p>
     </footer>
 </body>

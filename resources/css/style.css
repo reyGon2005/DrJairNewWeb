@@ -51,6 +51,14 @@ nav{
     background-color: #19346a;
 }
 
+#logo{
+    border-bottom: 0px;
+}
+
+#logo:hover{
+    background-color: #19346a;
+}
+
 .logo{
     width: auto;
     max-height: 130px;
