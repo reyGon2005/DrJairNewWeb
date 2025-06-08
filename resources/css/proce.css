@@ -1,0 +1,98 @@
+.normal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.reves{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.text-normal, .img-normal, .img-reves, .text-reves{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.text-normal div, .img-reves div{
+    background-color: #7E8792;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.img1{
+    background-image: url("..//img/exosomas.jpg");
+}
+
+.img2{
+    background-image: url("..//img/alidya.jpg");
+}
+
+.img3{
+    background-image: url("..//img/booster.jpg");
+}
+
+.img4{
+    background-image: url("..//img/micro.jpg");
+}
+
+.img5{
+    background-image: url("..//img/lipo.jpg");
+}
+
+.img6{
+    background-image: url("..//img/acido.jpg");
+}
+
+@media only screen and (max-width: 480px) {
+    .text-normal, .img-normal, .img-reves, .text-reves{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .text-normal div, .img-reves div{
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    .text-normal, .img-normal, .img-reves, .text-reves{
+        height: 350px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .text-normal div, .img-reves div{
+        min-width: 200px;
+        max-width: 300px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .text-normal, .img-normal, .img-reves, .text-reves{
+        height: 500px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .text-normal div, .img-reves div{
+        width: 400px;
+    }
+}
